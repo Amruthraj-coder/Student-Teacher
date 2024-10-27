@@ -1,0 +1,19 @@
+student-teacher-booking/
+├── public/
+│   ├── index.html                 # Main HTML file
+│   ├── teacher.html               # Teacher-specific functions page (e.g., manage appointments)
+│   ├── student.html               # Student-specific functions page (e.g., search/book appointments)
+│   ├── css/
+│   │   └── styles.css             # All custom styles for the project
+│   ├── js/
+│   │   ├── firebase-config.js     # Firebase configuration file
+│   │   ├── auth.js                # User authentication logic (register, login, logout)
+│   │   ├── teacher.js             # Teacher-specific actions (add, update, delete teacher, manage appointments)
+│   │   ├── student.js             # Student-specific actions (search teacher, book appointment, messaging)
+│   │   ├── appointment.js         # Shared appointment functions (approve, cancel, view)
+│   │   └── main.js                # Main app logic and event listeners
+├── .gitignore                     # Git ignore file
+├── README.md                      # Documentation for the project
+└── docs/
+    ├── LLD-document.md            # Low-Level Design document for project architecture
+    └── system-architecture.md     # System Architecture and wireframe diagrams
